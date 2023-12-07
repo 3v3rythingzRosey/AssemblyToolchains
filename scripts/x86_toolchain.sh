@@ -190,5 +190,5 @@ if [ "$GDB" == "True" ]; then
 	
   # GDB will be launched with the specified parameters in the gbd_params array.
 	gdb "${gdb_params[@]}" $OUTPUT_FILE
-
+ 
 fi
